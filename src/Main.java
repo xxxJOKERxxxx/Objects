@@ -4,6 +4,6 @@ public class Main {
         for (int number: array) {
             System.out.println(number);
         }
-        System.out.println("Hello, World!");
+
     }
 }
