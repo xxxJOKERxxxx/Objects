@@ -1,15 +1,15 @@
 public class Main {
     public static void main(String[] args) {
 
-        for (int i = 0; i <=10 ; i++) {
-            if(i%2==0) {
-                continue;
-            }
-            if(i>7) {
-                break;
-            }
-            System.out.println(i);
+        int[] array = new int[5];
+        for (int i = 0; i < array.length; i++) {
+            array[i] = i;
+            System.out.println(array[i]);
 
+        }
+        String[] strArray = {"May", "June", "July", "August", "September", "October"};
+        for (int i = 0; i < strArray.length; i++) {
+            System.out.println(strArray[i]);
         }
 
 
